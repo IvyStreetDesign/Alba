@@ -1,14 +1,7 @@
 const Hero = () => (
   <section className="alba-hero" data-screen-label="01 Hero">
     <div className="alba-hero__image" aria-hidden="true">
-      <video
-        src="./assets/alba.mp4"
-        autoPlay
-        loop
-        muted
-        playsInline
-        disablePictureInPicture
-      />
+      <img src="./assets/hero-kitchen.jpg" alt="" />
       <div className="alba-hero__veil" />
     </div>
 
