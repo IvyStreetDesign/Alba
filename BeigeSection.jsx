@@ -11,7 +11,7 @@ const moments = [
     eyebrow: "Architecture",
     title: "Composed by contrast.",
     body: "Clean architectural lines, framed openings and textural materiality give Alba a strong, contemporary presence. Inspired by Parkdale’s relaxed Bayside setting, the architecture balances bold structure with warmth, shadow and a focus on landscaping, creating a design language that feels both confident and calm.",
-    img: "./assets/architecture-bathroom.jpg",
+    img: "./assets/architecture-entrance.jpg",
   },
   {
     id: "location",
