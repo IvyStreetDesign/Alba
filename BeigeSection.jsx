@@ -4,14 +4,14 @@ const moments = [
     eyebrow: "Residences",
     title: "Room for every rhythm.",
     body: "Alba’s generous three and four bedroom residences combine private open spaces with flexible layouts, creating homes designed for the changing pace of family life. From slow mornings to busy evenings, there's space to gather, retreat and grow.",
-    img: "./assets/lifestyle.jpg",
+    img: "./assets/residences-living.jpg",
   },
   {
     id: "architecture",
     eyebrow: "Architecture",
     title: "Composed by contrast.",
     body: "Clean architectural lines, framed openings and textural materiality give Alba a strong, contemporary presence. Inspired by Parkdale’s relaxed Bayside setting, the architecture balances bold structure with warmth, shadow and a focus on landscaping, creating a design language that feels both confident and calm.",
-    img: "./assets/parkdale-beach.jpg",
+    img: "./assets/architecture-bathroom.jpg",
   },
   {
     id: "location",
@@ -108,7 +108,7 @@ const BeigeSection = () => {
           <div className="alba-beige__sticky" style={{ top: imgTop + 'px' }} aria-hidden="true">
             <div className="alba-beige__stack">
               <img
-                src="./assets/internals.png"
+                src="./assets/welcome-exterior.jpg"
                 alt=""
                 className={"alba-beige__img" + (active === -1 ? " is-active" : "")}
               />
