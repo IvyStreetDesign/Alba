@@ -224,7 +224,7 @@ a { color: inherit; text-decoration: none; }
 
 .alba-beige__moment-register {
   display: inline-flex; align-items: center; align-self: flex-start;
-  margin-top: 4px;
+  margin-top: 32px;
   padding: 12px 24px;
   background: var(--alba-walnut);
   color: var(--alba-beige-light);
