@@ -226,16 +226,14 @@ a { color: inherit; text-decoration: none; }
   display: inline-flex; align-items: center; align-self: flex-start;
   margin-top: 4px;
   padding: 12px 24px;
-  background: transparent;
-  color: var(--alba-walnut);
+  background: var(--alba-walnut);
+  color: var(--alba-beige-light);
   font-family: var(--font-sans); font-size: 11px; font-weight: 500;
   letter-spacing: 0.12em; text-transform: uppercase;
-  border: 1px solid var(--alba-walnut); border-radius: 2px; cursor: pointer;
-  transition: background 200ms var(--ease-soft), color 200ms var(--ease-soft);
+  border: none; border-radius: 2px; cursor: pointer;
+  transition: opacity 200ms var(--ease-soft);
 }
-.alba-beige__moment-register:hover {
-  background: var(--alba-walnut); color: var(--alba-beige-light);
-}
+.alba-beige__moment-register:hover { opacity: 0.85; }
 
 .alba-beige__register-cta {
   display: inline-flex; align-items: center;
